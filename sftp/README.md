@@ -1,9 +1,8 @@
 Installing ssh2 extension
 
-
-Download libssh2 from http://www.libssh2.org/download/libssh2-1.4.3.tar.gz, untar it.
+1. Download libssh2 from http://www.libssh2.org/download/libssh2-1.4.3.tar.gz, untar it.
 or newer relase from http://www.libssh2.org
-1. Install it using the following commands.
+Install it using the following commands.
 
 ./configure
 make
@@ -29,7 +28,9 @@ cp modules/ssh2.so /path/to/extension/dir
 
 6. Add the extension to your php.ini
 extension=ssh2.so
+
 7. Save the file & Restart httpd.
+
 8. service apache2 restart
 
 NOTE : If there is any error try running command with sudo or extract above in diffrent directory.
