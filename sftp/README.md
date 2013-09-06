@@ -2,7 +2,7 @@ Installing ssh2 extension
 
 -> Download libssh2 from http://www.libssh2.org/download/libssh2-1.4.3.tar.gz, untar it. or newer relase from http://www.libssh2.org and Install it using the following commands. 
 
-./configure
+./configure <br/>
 make
 make install
 
