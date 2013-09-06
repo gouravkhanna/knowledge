@@ -1,24 +1,20 @@
 Installing ssh2 extension
 
-1. Download libssh2 from http://www.libssh2.org/download/libssh2-1.4.3.tar.gz, untar it.
-or newer relase from http://www.libssh2.org
-Install it using the following commands.
+1. Download libssh2 from http://www.libssh2.org/download/libssh2-1.4.3.tar.gz, untar it. or newer relase from http://www.libssh2.org and Install it using the following commands. 
 
 ./configure
 make
 make install
 
 
-2. Now download the pecl-ssh2 installer from http://pecl.php.net/get/ssh2-0.10.tgz
-untar it & cd to that folder 
+2. Now download the pecl-ssh2 installer from http://pecl.php.net/get/ssh2-0.10.tgz, untar it & cd to that folder 
 
 cd ssh2-0.11.0
 phpize 
 ./configure –with-ssh2 
 make
 
-3. After this a ssh2.so will be created in module folder in current directory 
-we will be copying this to extesion dir
+3. After this a ssh2.so will be created in module folder in current directory we will be copying this to extesion dir
 
 4. This will give the path of extension directory 
 grep extension_dir /usr/local/Zend/etc/php.ini
